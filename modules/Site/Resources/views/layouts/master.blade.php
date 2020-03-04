@@ -14,6 +14,15 @@
         @yield('content')
 
         <script src="{{ asset('js/app.js') }}"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-W7KPW02Q7T"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-W7KPW02Q7T');
+        </script>
         @stack('js')
     </body>
 </html>
