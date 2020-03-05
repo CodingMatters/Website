@@ -15,11 +15,6 @@
                 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
             })(window,document,'script','dataLayer','GTM-TFTG33S');</script>
         <!-- End Google Tag Manager -->
-        @stack('css')
-    </head>
-    <body>
-        @yield('content')
-
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-W7KPW02Q7T"></script>
         <script>
@@ -29,6 +24,11 @@
 
             gtag('config', 'G-W7KPW02Q7T');
         </script>
+        @stack('css')
+    </head>
+    <body>
+        @yield('content')
+
         <script src="{{ asset('js/app.js') }}"></script>
         @stack('js')
     </body>
