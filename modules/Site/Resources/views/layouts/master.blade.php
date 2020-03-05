@@ -8,6 +8,7 @@
         <title>Coding Matters Software Development Services</title>
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
         <link rel="stylesheet" href="{{asset('css/bulma.css')}}">
+        @if( \Illuminate\Support\Facades\App::environment('production'))
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-W7KPW02Q7T"></script>
         <script>
@@ -17,6 +18,7 @@
 
             gtag('config', 'G-W7KPW02Q7T');
         </script>
+        @endif
         @stack('css')
     </head>
     <body>
