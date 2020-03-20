@@ -1,6 +1,6 @@
 <?php
 
-declare(strict_types = 1);
+declare(strict_types=1);
 
 namespace App\Console;
 
@@ -26,8 +26,7 @@ final class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule) : void
     {
-        // $schedule->command('inspire')
-        //          ->hourly();
+        // $schedule->command('inspire')->hourly();
     }
 
     /**

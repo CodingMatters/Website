@@ -22,7 +22,7 @@ return [
     |
     | This value determines the "environment" your application is currently
     | running in. This may determine how you prefer to configure various
-    | services your application utilizes. Set this in your ".env" file.
+    | services the application utilizes. Set this in your ".env" file.
     |
     */
 
@@ -52,8 +52,8 @@ return [
     |
     */
 
-    'url'       => env('APP_URL', 'https://codingmatters.today'),
-    'domain'    => env('APP_DOMAIN', 'codingmatters.today'),
+    'url' => env('APP_URL', 'https://codingmatters.today'),
+    'domain' => env('APP_DOMAIN', 'codingmatters.today'),
 
     'asset_url' => env('ASSET_URL', null),
 
@@ -68,7 +68,7 @@ return [
     |
     */
 
-    'timezone' => 'Asia/Manila',
+    'timezone' => 'UTC',
 
     /*
     |--------------------------------------------------------------------------
@@ -208,6 +208,7 @@ return [
         'File' => Illuminate\Support\Facades\File::class,
         'Gate' => Illuminate\Support\Facades\Gate::class,
         'Hash' => Illuminate\Support\Facades\Hash::class,
+        'Http' => Illuminate\Support\Facades\Http::class,
         'Lang' => Illuminate\Support\Facades\Lang::class,
         'Log' => Illuminate\Support\Facades\Log::class,
         'Mail' => Illuminate\Support\Facades\Mail::class,
@@ -225,7 +226,7 @@ return [
         'Str' => Illuminate\Support\Str::class,
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
-        'View' => Illuminate\Support\Facades\View::class
+        'View' => Illuminate\Support\Facades\View::class,
 
     ],
 
