@@ -23,7 +23,56 @@
     </head>
     <body>
         @yield('content')
-
+        <footer class="footer has-background-black">
+            <div class="columns">
+                <div class="column is-two-fifths">
+                    <h2 class="is-size-3 has-text-weight-bold has-text-white-ter is-uppercase">Coding Matters</h2>
+                    <p class="subtitle is-size-6">Specializes in business resource management and brand strategy.</p>
+                    <div class="row">
+                        <nav class="breadcrumb has-dot-separator" aria-label="breadcrumbs">
+                            <ul>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Careers</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="content">
+                        <div class="columns">
+                            <div class="column">
+                                <h5 class="has-text-grey-dark">Legal</h5>
+                                <div class="row">
+                                    <nav class="breadcrumb has-dot-separator" aria-label="breadcrumbs">
+                                        <ul>
+                                            <li><a href="#">Terms</a></li>
+                                            <li><a href="#">Policy</a></li>
+                                            <li><a href="#">Privacy</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <h5 class="has-text-grey-dark">Resources</h5>
+                                <div class="row">
+                                    <nav class="breadcrumb has-dot-separator" aria-label="breadcrumbs">
+                                        <ul>
+                                            <li><a href="#">Products</a></li>
+                                            <li><a href="#">Services</a></li>
+                                            <li><a href="#">Workshops</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <p class="is-size-7 is-pulled-right">Copyright &copy; @php echo date('Y'); @endphp. All rights reserved.</p>
+            </div>
+        </footer>
         <script src="{{ asset('js/app.js') }}"></script>
         @stack('js')
     </body>
