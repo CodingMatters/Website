@@ -5,7 +5,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
-        <title>Coding Matters Software Development Services</title>
+        <title>
+            @yield('title_prefix', '')
+            @yield('title', config('app.name', 'AdminLTE 3'))
+        </title>
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
         <link rel="stylesheet" href="{{asset('css/bulma.css')}}">
         @if( \Illuminate\Support\Facades\App::environment('production'))
@@ -31,9 +34,10 @@
                     <div class="row">
                         <nav class="breadcrumb has-dot-separator" aria-label="breadcrumbs">
                             <ul>
-                                <li><a href="#">About</a></li>
+                                <li><a href="{{route('site.about')}}">About</a></li>
                                 <li><a href="#">Blog</a></li>
                                 <li><a href="#">Careers</a></li>
+                                <li><a href="#">Get Connected</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -61,6 +65,7 @@
                                             <li><a href="#">Products</a></li>
                                             <li><a href="#">Services</a></li>
                                             <li><a href="#">Workshops</a></li>
+                                            <li><a href="#">Books</a></li>
                                         </ul>
                                     </nav>
                                 </div>
