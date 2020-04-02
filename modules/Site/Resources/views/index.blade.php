@@ -37,7 +37,7 @@
                     <h2 class="subtitle is-size-4 has-text-grey-darker">We love to work with you and share our experiences in solving complex problems</h2>
                     <div class="buttons">
                         <a href="#freelancer" class="button is-success is-rounded has-text-weight-semibold is-outlined">For Freelancers</a>
-                        <a href="#team" class="button is-info is-rounded has-text-weight-semibold is-outlined">For Students</a>
+                        <a href="#student" class="button is-info is-rounded has-text-weight-semibold is-outlined">For Students</a>
                         <a href="#business" class="button is-danger is-rounded has-text-weight-semibold is-outlined">For Businesses</a>
                     </div>
                 </div>
@@ -94,7 +94,7 @@
         </div>
     </div>
 </section>
-<section id="team" class="hero is-fullheight has-background-white-bis" style="padding-top: 30px">
+<section id="student" class="hero is-fullheight has-background-white-bis" style="padding-top: 30px">
     <div class="container is-fluid">
         <div class="columns is-vcentered">
             <div class="column">
