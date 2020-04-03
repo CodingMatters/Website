@@ -15,8 +15,7 @@
             <div class="container">
                 <div class="navbar-brand">
                     <a class="navbar-item" href="{{route('site.index')}}">
-                        <h2 class="has-text-weight-bold is-size-2">Coding Matters
-                        </h2>
+                        <h2 class="has-text-weight-bold is-size-1 has-text-grey-darker">Coding Matters</h2>
                     </a>
                 </div>
                 <div id="navbarMenuHeroA" class="navbar-menu">
@@ -32,9 +31,9 @@
         <div class="container is-fluid">
             <div class="columns is-vcentered">
                 <div class="column is-two-fifths">
-                    <h1 class="title is-size-1 has-text-success has-text-weight-bold">Building identities and strategies in acquiring customers and managing your resources</h1>
-                    <h6 class="subtitle is-size-6 has-text-grey-dark">Focused | Agile | Automated</h6>
-                    <h2 class="subtitle is-size-4 has-text-grey-darker">We love to work with you and share our experiences in solving complex problems</h2>
+                    <h1 class="title is-size-1 has-text-success has-text-weight-bold">Building identities and developing strategies in providing value to customers and clients</h1>
+                    <p class="subtitle is-size-5 has-text-grey has-text-weight-semibold">Technopreneurship <span class="has-text-grey-lighter">|</span> Agile <span class="has-text-grey-lighter">|</span> Focused</p>
+                    <p class="subtitle is-size-4 has-text-grey-darker">We love to work with you and share our experiences in solving complex problems</p>
                     <div class="buttons">
                         <a href="#freelancer" class="button is-success is-rounded has-text-weight-semibold is-outlined">For Freelancers</a>
                         <a href="#student" class="button is-info is-rounded has-text-weight-semibold is-outlined">For Students</a>
